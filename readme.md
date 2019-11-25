@@ -11,7 +11,7 @@
    Migration table created successfully.
    ````
 
-4. 然后执行**php artisan migrate **创建数据表,成功会如下所示。(如果上面步骤报错,这条命令不会有效果)
+4. 然后执行**php artisan migrate**创建数据表,成功会如下所示。(如果上面步骤报错,这条命令不会有效果)
 
 5. ````bash
    $ php artisan migrate
@@ -25,7 +25,7 @@
    Migrated:  2019_11_19_070217_create_movie_table
    ````
 
-6. 最后执行**php artisan db:seed **填充数据,成功会如下所示。(如果失败的手动添加数据)
+6. 最后执行**php artisan db:seed**填充数据,成功会如下所示。(如果失败的手动添加数据)
 
  ````bash
    $ php artisan db:seed 
